@@ -1,0 +1,20 @@
+table {border-spacing: .5em; border: solid thick;} 
+td {border: solid thin; text-align:center;} /*Taken from CS290 video on tables*/
+th {background: white;}
+tr:nth-child(odd) {background: #98FB98;}
+tr:nth-child(even){background: #90FEFB;}
+dt:hover+dd {background: purple;}
+.outer-content {left: 0px;
+				height: 40px; 
+				width: 75%; 
+				background: pink;
+				padding: 20px;
+				margin-top: 20px;}
+.inner-content {margin: 0 auto;		/*Taken from http://stackoverflow.com/questions/114543/horizontally-center-a-div-in-a-div*/
+				height: 25 px;
+				width: 75%;
+				background: #90FEFB;}
+img {float: left;
+    width: 100px;
+    height: 125px;
+	padding: 50px;}
