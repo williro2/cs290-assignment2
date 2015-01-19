@@ -1,6 +1,7 @@
 table {border-spacing: .5em; border: solid thick;} 
 td {border: solid thin; text-align:center;} /*Taken from CS290 video on tables*/
 th {background: white;}
+tfoot td {background:white;}
 tr:nth-child(odd) {background: #98FB98;}
 tr:nth-child(even){background: #90FEFB;}
 dt:hover+dd {background: purple;}
